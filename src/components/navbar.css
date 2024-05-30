@@ -3,13 +3,21 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 2px -2px black;
+    margin-left: 15px;
+    margin-right: 25px;
     
 }
 
-a{
+.navbarLinks{
     display: flex;
     text-decoration: none;
     gap: 15px;
+    color: #626262;
+    padding-top: 15px;
+}
+
+.headingName{
+    padding-top: 20px;
 }
 img{
     max-width: 100px;
@@ -35,6 +43,19 @@ img{
     font-size: 20px;
     font-weight: 500;
 }
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 500px) {
+     .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 12px;
+        box-shadow: 0 1px 2px -2px black;
+      
+    }
+    .logo{
+        align-items: center;
+    }
+  }
 
 .login-cart{
     display: flex;

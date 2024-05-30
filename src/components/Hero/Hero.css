@@ -1,0 +1,10 @@
+
+.hero-image {
+    height: 100vh; /* Make the image height equal to the viewport height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+
+  .d-block{
+    justify-content: flex-start;
+    display: flex;
+  }
