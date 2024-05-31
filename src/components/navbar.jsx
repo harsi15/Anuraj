@@ -10,7 +10,7 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='logo'>
-            <a className="navbarLinks" href='/Home' style={{textDecoration : 'none'}} ><img src={logo}/>
+            <a className="navbarLinks" href='/Home' style={{textDecoration : 'none'}} ><img className="logoIcon" src={logo}/>
             <p className="headingName"><b>The Spice Tradition</b><br/>
             <i>by Anuraj</i></p></a>
         </div>

@@ -1,0 +1,12 @@
+.carousel-inner .item{
+    height: 100%;
+}
+.carousel-inner .item img {
+    width: 80%;
+    height: 200% !important;
+    object-fit:cover;
+}
+
+img1{
+    width: 100%;
+}
