@@ -1,8 +1,8 @@
 import React from 'react'
+import './Home.css'
 import img1 from '../components/assets/background1.jpg';
 import img2 from '../components/assets/background2.jpg';
 import img3 from '../components/assets/background3.jpg';
-import './Home.css'
 
 const Home = () => {
   return (
